@@ -1,0 +1,32 @@
+#include<stdio.h>
+#include<conio.h>
+#include<math.h>
+#include<string.h>
+#include<ctype.h>
+
+int main ()
+{
+
+int import,exporta;
+
+ printf("please enter the import money :");
+ scanf("%d",&import);
+ 
+ printf("please enter the export money :");
+ scanf("%d",&exporta);
+ 
+ if(import>exporta)
+ {
+ 	printf("you are in loss of %d money",import-exporta);a
+ }
+ else if (import==exporta)
+ {
+ 	printf("import and export money are same ");
+ }
+else
+{
+	printf("you are in profit of %d money",exporta-import);
+}
+	return 0;
+	
+}
